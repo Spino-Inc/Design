@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>My Portfolio</title>
+
+	<link href="styles.css" rel="stylesheet" type="text/css" />	
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link href="css/my-style.css" rel="stylesheet" type="text/css" />
+	
+	<script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.8.16/jquery-ui.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+	
+<style>
+
+</style>
+ <script>
+  $(function() {
+    $( "#progressbar" ).progressbar({
+      value: 90
+    });
+	$( "#progressbar1" ).progressbar({
+      value: 80
+    });
+	$( "#progressbar2" ).progressbar({
+      value: 100
+    });
+	$( "#progressbar3" ).progressbar({
+      value: 90
+    });
+	$( "#progressbar4" ).progressbar({
+      value: 80
+    });
+	$( "#progressbar5" ).progressbar({
+      value: 100
+    });
+	$( "#progressbar6" ).progressbar({
+      value: 90
+    });
+  });
+ 
+	$(document).ready(function(){
+	  $("area[rel^='prettyPhoto']").prettyPhoto();
+	});
+
+	$(function() {
+	$("#accordion").accordion({
+	active: false,	
+    autoHeight: false,
+	collapsible: true
+	});
+
+});
+</script>
+</head>
+
+<body>
+<div id="header">
+	<div id="logo"><a href="index.htm"><p class="logo-name">Surya Rakesh</p></a></div>
+	<ul id="main-menu">
+    	<li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#connect">Connect</a></li>
+    </ul>
+</div>
+
+<div id="container">
+    <div id="about">
+    	<h1>About</h1>        
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="images/designer-photo.jpg" />
+            <!--<div class="left">
+            <div class="details">
+            <p class="name">Surya Rakesh</p>
+            <ul class="sub">
+            <li>UserName@gmail.com</li>
+            <li>9998882211</li>
+            <li>7 fancy street, <li>City Name,</li> Country Name.</li></ul>
+            </div>
+            </div>-->
+            <div class="right">            
+            <p style="margin:0px;">To continue designing and developing usable, useful user-computer interfaces by utilizing 7+ years of proven ability to convey concepts through my web application design experience.</p> 
+            <ul style="padding-left:19px;">
+            	<li>Experience in designing User Interface (UI) web applications by using UI authoring and web technologies.</li>
+                <li>Experience in development and testing phase in SDLC.</li>
+                <li>Experience in designing UI patterns and UI application with the help of Adobe products like Adobe Dreamweaver CS3, Adobe Photoshop CSS3, Adobe Illustrator CS3, and Adobe Flash.</li>
+                <li>Experience in all the phases of SDLC enabling interaction with clients, users and developers.</li>
+                <li>Self-motivated, able to work independently and in teams; can handle multiple projects while paying attention to details; accomplished problem solving and analytical skills.</li>
+                <li>Excellent verbal and written communication, organizational and administrative skills for project management.</li>
+                	
+            </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="bottom-divider"></div> 
+    </div>
+
+    <div id="experience">
+    	<h1>Experience</h1>
+        <div class="top-divider"></div>
+		<div class="content">
+       <div id="accordion">
+			<h2>Wells Fargo, Charlotte, NC <span class="accr-yr">Nov 2013 - Present</span></h2>
+			<div class="pane">
+			
+			<p>The CORE (Common Opportunities, Results, and Experiences) is a dynamic web-based system that allows Wells Fargo Home Lending team members to process a loan from origination to funding. </p>
+			<span class="role">Role : <u>UI Developer</u></span><br/><br/>
+			<span class="resp">Responsibilities</span> :
+			<ul type="circle" class="accr-ul">
+				<li>Followed Agile Software Development Methodology in the progress of the project.</li>
+				<li>Involved in design of Class Diagrams, Sequence Diagrams and Event Diagrams as part of Documentation.</li>
+				<li>Used Oracle as a database to create deals and related data for the application.</li>
+				<li>Used SQL developer for retrieving the deal data and to modify the data in database.</li>
+				<li>Extensively used WebStorm for development in the front end and used Subversion as version control system and Tortoise client for SVN.</li>
+				<li>Developing application design guidance and consultation, utilizing a thorough understanding of applicable technology, tools and existing designs.</li>
+				<li>Used AngularJs framework where data from backend is stored in model and populated it to UI.</li>
+				<li>Created AngularJs Controller which Isolate scopes perform operations in UI.</li>
+				<li>Using AngularJs created custom directives for data manipulations and to display data in company standard format in UI.</li>
+				<li>Converted the pages from XM I(XML Metadata Interchange) to AngularJs and in this process had to deal with converting the XMI request and response in the front end to JSON(Java Script Object Notation).</li>				
+			</ul>
+			</div>
+			<h2>Amadeus, Charlotte NC <span class="accr-yr">Feb 2013 – Oct 2013</span></h2>
+			<div class="pane">
+			<p>WellPoint is one of the nation’s largest health benefits companies, with nearly 33 million members in its affiliated health plans and approximately 64 million individuals served through its subsidiaries. Involved with an internal web application for sales to help our associates to maintain customer information and offer different packages depending on the plan that they are using.</p>
+			<span class="role">Role : <u>Sr. Web/UI Developer</u></span><br/><br/>
+			<span class="resp">Responsibilities</span> :
+			<ul type="circle" class="accr-ul">
+				<li>Experienced in problem analysis in both technical system and application programs.</li>
+				<li>Essentially involved in all phases of SDLC to structure the unformatted requirements.</li>
+				<li>Designed the ER diagrams and structured data in the database with enforcing normalization for a consistent output.</li>
+				<li>Used advanced level of HTML5, JavaScript, CSS3 and pure CSS layouts (table less layout).</li>
+				<li>Defined and developed the application’s presentation layer using HTML5, CSS3, JSP, JavaScript and j Query Scripting.</li>
+				<li>Developed client’s interface in PHP in MVC modeling using code igniter framework. </li>
+				<li>Developed user interface using Asynchronous validation for the fast and user friendly access using AJAX.</li>
+				<li>Redesigned pages to improve application design and UI to attract the customers by taking inputs from senior management.</li>
+				<li>Designed Templates and Flow of future pages using Adobe Photoshop.</li>
+				<li>Enforced SQL injection techniques to avoid unauthorized breaks to the data access.</li>				
+			</ul>
+			</div>
+			<h2>FedEx - MEMPHIS, TN <span class="accr-yr">Nov 2011 - Dec 2012</span></h2>
+			<div class="pane">
+			<p>FedEx provides customers and businesses worldwide with a broad portfolio of transportation, e-commerce and business services. They offer integrated business applications through operating companies competing collectively and managed collaboratively, under the respected FedEx brand. Consistently ranked among the world's most admired and trusted employers. Involved in multiple projects both internal as well as consumer facing applications.</p>
+			<span class="role">Role : <u>Sr. Web/UI Developer</u></span><br/><br/>
+			<span class="resp">Responsibilities</span> :
+			<ul type="circle" class="accr-ul">
+				<li>Working with business analysts and Graphics designers to determine and understand UI/UX requirements for new   functionalities and updating the application with new change requests.</li>
+				<li>Customizing application presentation layer (UI) with creating multiple CSS templates for different clients.</li>
+				<li>Creating JUnit test cases for the written modules and GWT classes as per the business logic.</li>
+				<li>Writing Velocity template macros for some of the presentation templates and email templates. </li>
+				<li>Used jQuery for Ajax handling of Forms and creating application widgets.</li>
+				<li>Build cross browser compatible UI interfaces and taking care of the look and feel of the UI to be a richer, smoother and flawless user experience on the User Interface.</li>
+				<li>Used JSON as an server responses to UI layer to work in the GWT Hosted mode.</li>
+				<li>Deploying application to Weblogic server to run the GWT on live mode for application testing.</li>
+				<li>Creating JUnit test cases for the written modules and GWT classes as per the business logic.</li>
+				<li>Writing Velocity template macros for some of the presentation templates and email templates. </li>				
+			</ul>
+			</div>
+			<h2>Chen Technologies, Hallandale, FL <span class="accr-yr">Jan 2011 - Oct 2011</span></h2>
+			<div class="pane">
+			<p>Providing support to design and supply medical software for the firm.
+			This project included developing and troubleshooting several sections of the company’s website. The main responsibilities were to develop the UI screens that allow the business to onboard and maintain their business. Project also involved designing medical software’s.</p>
+			<span class="role">Role : <u>UI Developer</u></span><br/><br/>
+			<span class="resp">Responsibilities</span> :
+			<ul type="circle" class="accr-ul">
+				<li>Responsible for transforming design mock-ups to W3C standards compliant HTML pages using XHTML, CSS, JavaScript, and jQuery, JSP/JSON, XML and XSLT.</li>
+				<li>Implemented user interface guidelines and standards throughout the development and maintenance of the website using DHTML (HTML, CSS and JavaScript).</li>
+				<li>Responsible for developing various static and dynamic modules which are displayed in different web pages according to the specifications.</li>
+				<li>Developed and designed XML Schemas to transport and store data. XML was used to simplify data and allow for Platform Changes, as well as making data more available across the applications distributed platforms.</li>
+				<li>Extensively used XSLT to transform XML documents to HTML.</li>
+				<li>Wrote custom jQuery plugins and developed javascript functions to build a bleeding-edge, AJAX-driven user interface.</li>
+				<li>Extensively used jQuery plugins like jcarousellite and mousewheel for creating scrollable menus. </li>
+				<li>Worked on jQuery Lightbox for creating image and video galleries.</li>
+				<li>Implemented dynamic page elements and form error validations using JAVASCRIPT.</li>
+				<li>Embedded the flash content into the web pages using SWFObject.</li>
+				<li>Created Ajax calls to exchange (request / responses) information with database.</li>
+				<li>Developed social network services for user interaction using Ajax, JavaScript, CSS and DHTML.</li>	
+			</ul>
+			</div>
+			<h2>WellPoint Inc, Calabasas, CA<span class="accr-yr">Dec 2009 – Oct 2010</span></h2>
+			<div class="pane">
+			<p>WellPoint is one of the nation’s largest health benefits companies, with nearly 33 million members in its affiliated health plans and approximately 64 million individuals served through its subsidiaries. Involved with an internal web application for sales to help our associates to maintain customer information and offer different packages depending on the plan that they are using.</p>
+			<span class="role">Role : <u>Front End UI Developer</u></span><br/><br/>
+			<span class="resp">Responsibilities</span> :
+			<ul type="circle" class="accr-ul">
+				<li>Designed and developed Web pages using HTML, CSS including Ajax controls, JSON and XML.</li>
+				<li>Developed data insertion forms and validated them using JavaScript.</li>
+				<li>Validated input values to make sure that they will be accepted before they are submitted to the server.</li>
+				<li>Used JavaScript and XML to update a portion of a web page thus reducing bandwidth usage and load time and add modal dialog in web pages to get user input and requests.</li>
+				<li>Coded JavaScript for page functionality and Pop up Screens.</li>
+				<li>Drove multiple component design sessions parallel, creating design artifacts according to specifications.</li>
+				<li>Utilized new software methodologies to be able to adapt to changes in requirements quickly. </li>
+				<li>Worked closely with third party vendors.</li>
+				<li>Ensured that all components of the application are platform and browser compatible.</li>				
+			</ul>
+			</div>
+			<h2>GSI Commerce, Somerset, NJ<span class="accr-yr">July 2008-Oct 2009</span></h2>
+			<div class="pane">			
+			<span class="role">Role : <u>Web Developer</u></span><br/><br/>
+			<span class="resp">Responsibilities</span> :
+			<ul type="circle" class="accr-ul">
+				<li>Developed best standards for Web Front end. </li>
+				<li>Used Microsoft Visio, for OOAD purposes.</li>
+				<li>Developed fast loading images using Adobe Photoshop CS3.</li>
+				<li>Used jQuery for basic animation and end user screen customization purposes.</li>
+				<li>Used AJAX to make asynchronous calls to the project server to fetch data on the fly.</li>
+				<li>Responsible for creating the screens with table-less designs meeting W3C standards.</li>
+				<li>Designed dynamic and browser compatible pages using HTML, DHTML, CSS and JavaScript.</li>
+				<li>Developed CSS styles to maintain the uniformity of all the screens throughout the application and positioning of screen objects. </li>
+				<li>Designed CSS based page layouts that are cross-browser compatible and standards-compliant.</li>				
+			</ul>
+			</div>
+		</div>   
+		</div> 
+        <div class="bottom-divider"></div>
+    </div>
+
+    <div id="skills">
+    	<h1>Skills</h1>
+        <div class="top-divider"></div> 
+        	<div class="skil-head">Designer</div>
+            <div class="skil-panel">               
+                <div class="skil">            
+                    <div class="skil-name">Adobe Photoshop</div>
+                    <div id="progressbar"></div>
+                    <div class="skil-rate">9 out of 10</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="skil">
+                    <div class="skil-name">Adobe Flash</div>
+                    <div id="progressbar1"></div>
+                    <div class="skil-rate">8 out of 10</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="skil">
+                    <div class="skil-name">Design skills</div>
+                    <div id="progressbar2"></div>
+                    <div class="skil-rate">10 out of 10</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="gap"></div>           
+            <div class="skil-head">Programer</div>
+                <div class="skil-panel">               
+                    <div class="skil">            
+                    <div class="skil-name">PHP</div>
+                    <div id="progressbar3"></div>
+                    <div class="skil-rate">9 out of 10</div>
+                    <div class="clear"></div>
+                    </div>
+                    <div class="skil">
+                    <div class="skil-name">JavaScript</div>
+                    <div id="progressbar4"></div>
+                    <div class="skil-rate">8 out of 10</div>
+                    <div class="clear"></div>
+                    </div>
+                    <div class="skil">
+                    <div class="skil-name">HTML</div>
+                    <div id="progressbar5"></div>
+                    <div class="skil-rate">10 out of 10</div>
+                    <div class="clear"></div>
+                    </div>
+                    <div class="skil">
+                    <div class="skil-name">CSS</div>
+                    <div id="progressbar6"></div>
+                    <div class="skil-rate">9 out of 10</div>
+                    <div class="clear"></div>
+                    </div>
+            </div>            
+        <div class="bottom-divider"></div>
+    </div>
+
+    <div id="work">
+    	<h1>Work</h1>
+        <div class="top-divider"></div>
+        	<div class="content">
+            	<ul id="work-thumbs">
+                	<li><a href="images/work/work-full1.jpg" rel="prettyPhoto[1]"  title="Wells Forgo"><img src="images/work/work-thumb1.jpg"></a></li>
+                    <li><a href="images/work/work-full2.jpg" rel="prettyPhoto[1]" title="Amadeus"><img src="images/work/work-thumb2.jpg"></a></li>
+                    <li><a href="images/work/work-full3.jpg" rel="prettyPhoto[1]" title="FedEx"><img src="images/work/work-thumb3.jpg"></a></li>
+                    <li class="last"><a href="images/work/work-full4.jpg" rel="prettyPhoto[1]" title="FedEx"><img src="images/work/work-thumb4.jpg"></a></li>
+                    <li><a href="images/work/work-full5.jpg" rel="prettyPhoto[1]" title="Well Point"><img src="images/work/work-thumb5.jpg"></a></li>
+                    <li><a href="images/work/work-full6.jpg" rel="prettyPhoto[1]" title="Well Point"><img src="images/work/work-thumb6.jpg"></a></li>
+                    <li><a href="images/work/work-full7.jpg" rel="prettyPhoto[1]" title="Gsi Commerce"><img src="images/work/work-thumb7.jpg"></a></li>
+                    <li class="last"><a href="images/work/work-full8.jpg" rel="prettyPhoto[1]" title="Amadeus"><img src="images/work/work-thumb8.jpg"></a></li>
+                    
+                </ul>
+            </div>
+        <div class="bottom-divider"></div>
+    </div>
+  
+    <div id="connect">
+    	<h1>Connect</h1>
+        <div class="top-divider"></div>
+        	<div class="content">
+            	<div id="form">
+                	<form action="#">
+                    	<span>Name</span>
+                        <input type="text" name="name" class="name" required />
+                        <span>Email</span>
+                        <input type="email" name="email" class="email" required/>
+                        <span>Message</span>
+                        <textarea class="message"></textarea>
+                        <input type="submit" name="submite" value="Submit" class="submit">
+                    </form>
+                </div>
+                <div id="social-footer">
+                	<h2>Follow Me:</h2>
+                    <p>Mobile: <span class="cnt">805-410-4787</span></p>
+                    <p>Email: <span class="cnt">suryasetty821@gmail.com</span></p>                   
+                    <ul id="sm-links">
+                    	<li><a href="#" class="facebook">Facebook</a></li>
+           				<li><a href="#" class="twitter">Twitter</a></li>            			
+                        <li><a href="#" class="linkedin">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+   
+
+<map name="image_map">
+  <area shape="rect" coords="6,11,72,73" href="images/fullscreen/1.jpg" rel="prettyPhoto[image_map]">
+  <area shape="rect" coords="84,7,148,73" href="images/fullscreen/2.jpg" rel="prettyPhoto[image_map]">
+  <area shape="rect" coords="161,8,226,73" href="images/fullscreen/3.jpg" rel="prettyPhoto[image_map]">
+  <area shape="rect" coords="236,7,301,76" href="images/fullscreen/4.jpg" rel="prettyPhoto[image_map]">
+  <area shape="rect" coords="311,8,380,76" href="images/fullscreen/5.jpg" rel="prettyPhoto[image_map]">
+</map>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	$('#main-menu li a').bind('click',function(event){
+		var $anchor = $(this);
+		
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500,'easeInOutExpo');
+
+		event.preventDefault();
+	});
+});
+
+ $(document).ready(function(){
+$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.clear{clear:both;}
+.left{float: left;!border: 1px solid;width: 29%;min-height: 312px;}
+.right{float: left;!border: 1px solid;width: 64%;font-size:13px;text-align:justify}
+.name{font-size:30px;font-weight:600;}
+.details{padding-left:6px;}
+.sub{font-size:16px;}
+.sub li{padding-bottom:13px;}
+.ui-progressbar{height:4px;width:60%;float:left;margin-top:9px;background: currentcolor;border-radius: 3px;border-radius:3px;}
+.skil-head{float:left;width:12%;padding-top:0px;font-size:16px;color:#FFF;opacity:0.4;padding-left:16px;}
+.skil-panel{float:left;width:85%;padding-bottom:30px;}
+.skil-name{float:left;width:16%;padding-left:40px;}
+.skil-rate{float:left;padding-left:40px;}
+.skil{padding-bottom:9px;}
+.resp{font-size:16px;}
+.accr-ul{line-height:23px;padding-left:18px;}
+.role{font-size:16px;}
+.accr-yr{float:right;padding-right:21px;}
+.logo-name{margin:0px;font: 400 40px/20px 'Bree Serif', Georgia, serif;color: #fff;opacity:0.5;}
+.cnt{font-weight:500;font-size:18px;}
